@@ -1,11 +1,10 @@
 # Created by Matthias Mueller - Intel Intelligent Systems Lab - 2020
-
+import tensorflow
 import tensorflow as tf
 
 """
 Constructors for standard MLPs and CNNs
 """
-
 
 def create_cnn(
     width,
